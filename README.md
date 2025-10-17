@@ -24,10 +24,8 @@ This module forms the foundation of the tool’s host-level inspection capabilit
 
 Invaluable in both proactive hardening and reactive triage scenarios, can provide an immediate, high-fidelity snapshot that helps validate system baselines, detect unapproved software or hardware changes, verify patch coverage, and assess overall host posture. During an investigation, it allows analysts to rapidly understand what kind of machine they’re dealing with—what drivers are present, what’s connected, what could be exploited, and whether anything looks out of place at a glance.
 
-<details>
-<summary></summary>
-<a href="https://ibb.co/CxqHRqS"><img src="https://i.ibb.co/5qdRbdJ/hardware1.png" alt="hardware1" border="0"></a>
-</details>
+![](https://i.ibb.co/232Twybn/hardware1.png)
+
 
 ### Network & Interfaces
 
@@ -35,10 +33,7 @@ This module can be used to build a focused picture of how a host sits on and int
 
 These selective checks can speed up audits and incident triage: if selected during an alert, the module can quickly reveal whether a host is on a segmented network, whether resolvers or routes look abnormal, or which services are accepting external connections, helping prioritization and containment. Because outputs are modular, teams can pick just the information they need and pipe structured results into SIEMs or CMDBs without collecting unnecessary data.
 
-<details>
-<summary></summary>
-<a href="https://ibb.co/nqMLLyR0"><img src="https://i.ibb.co/vC4jjWDB/network1.png" alt="" border="0"></a>
-</details>
+![](https://i.ibb.co/vC4jjWDB/network1.png)
 
 ### Privilage Escalation Reconnaissance
 
@@ -46,10 +41,8 @@ The Privilege Escalation Reconnaissance module is a targeted, on‑demand examin
 
 For blue teams, these selective checks can rapidly **prioritize remediation by pointing to the highest‑impact misconfigurations**: a writable service config or a sloppy sudo rule is often a faster fix than chasing lower‑probability vectors. During investigations, the module can narrow the scope of privilege escalation paths to verify whether a compromised account could realistically obtain root or interact with privileged services. Because these findings are produced in a structured, audited format, they can be fed into patching and hardening playbooks, tracked in remediation tickets, or used to produce phased mitigation plans.
 
-<details>
-<summary></summary>
-<a href="https://ibb.co/gL0ntxBg"><img src="https://i.ibb.co/HfcJGjkg/privesc1.png" alt="" border="0"></a>
-</details>
+![](https://i.ibb.co/HfcJGjkg/privesc1.png)
+
 
 ### Disclosure
 
